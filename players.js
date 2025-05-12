@@ -1,0 +1,37 @@
+const players = [
+    {
+        name:'1',
+        alias:'2',
+        power:'9',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    }
+]
