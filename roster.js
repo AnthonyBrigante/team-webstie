@@ -13,8 +13,8 @@ const render = list => {
           <div class="card h-100 shadow-sm">
         <img src="${p.photo}" alt="${p.name}" class="card-img-top">
         <div class="card-body text-center">
-            <h5 class="card-title mb-1">$p.{name} $p.alias}</h5>
-            <div class='badge badge-position badge-pos-${p.team}'>${p.team}</div>
+            <h5 class="card-title mb-1">${p.name} AKA ${p.alias}</h5>
+            <div class=' text-dark badge badge-position badge-pos-${p.team}'>${p.team}</div>
             <p class="small text-muted mb-0"> ${p.power} <p>
         </div>
     </div>
