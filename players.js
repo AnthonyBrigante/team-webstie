@@ -51,7 +51,7 @@ const players = [
     {
         name:'Bruce Banner',
         alias:'The Hulk',
-        power:'Super Strength, Super healing, Very Angry',
+        power:'Super Strength, Super healing, Super Angry',
         team:'Avengers',
         photo:'imgs/hulk.jpg'
     },
@@ -245,6 +245,209 @@ const players = [
         photo:'imgs/sentrey.jpg'
     },
     {
+        name:'Elizabeth “Betsy” Braddock',
+        alias:'Psylocke',
+        power:'psionic energy',
+        team:'X-men',
+        photo:'imgs/psy.jpg'
+    },
+    {
+        name:'Anna Marie LeBeau',
+        alias:'Rogue',
+        power:'absorb memories, powers, personality traits, physical talents, and strength',
+        team:'X-men',
+        photo:'imgs/rouge.jpg'
+    },
+    {
+        name:'Vision',
+        alias:'Vision',
+        power:'flight, strength, laser, transparency',
+        team:'Avengers',
+        photo:'imgs/vision.jpg'
+    },
+    {
+        name:'Norrin Radd',
+        alias:'Silver Surfer',
+        power:'wields the Power Cosmic',
+        team:'Defenders',
+        photo:'imgs/silver.jpg'
+    },
+    {
+        name:'Jean Grey',
+        alias:'Marvel girl,Phoenix',
+        power:' powerful telekinetic and telepathic abilities',
+        team:'X-men',
+        photo:'imgs/jean.jpg'
+    },
+    {
+        name:'Clint Bartin',
+        alias:'Hawkeye',
+        power:'Master Marksemen',
+        team:'Avengers',
+        photo:'imgs/hawk.jpg'
+    },
+    {
+        name:'Eric Cross Brooks',
+        alias:'Blade',
+        power:'Daywalking Vampire',
+        team:'Defenders',
+        photo:'imgs/blade.jpg'
+    },
+    {
+        name:'Pietro Django Maximoff',
+        alias:'Quicksilver',
+        power:'Super Speed',
+        team:'Avengers',
+        photo:'imgs/quick.jpg'
+    },
+    {
+        name:'Erik Magnus Lehnsherr',
+        alias:'Magneto',
+        power:'control metal',
+        team:'X-men',
+        photo:'imgs/magneto.jpg'
+    },
+    {
+        name:'Cain Marko',
+        alias:'juggernaut',
+        power:'unstoppable',
+        team:'X-men',
+        photo:'imgs/jugg.jpg'
+    },
+    {
+        name:' John Aaron',
+        alias:'Ares',
+        power:'God of War',
+        team:'Avengers',
+        photo:'imgs/ares.jpg'
+    },
+    {
+        name:'Morgan Michaels',
+        alias:'Morbious',
+        power:'The living vampire',
+        team:'Avengers',
+        photo:'imgs/morbious.jpg'
+    },
+    {
+        name:'Simon Williams',
+        alias:'Wonder Man',
+        power:'Strength, flight, energy projection',
+        team:'Avengers',
+        photo:'imgs/wonderman.jpg'
+    },
+    {
+        name:'Yondu Udonta',
+        alias:'Yondu',
+        power:'Magic Arrow Controlled by Whistles',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/yondu.jpg'
+    },
+    {
+        name:'Adam Warlock',
+        alias:'Adam Warlock',
+        power:'The perfect being',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/warlock.jpg'
+    },
+    {
+        name:'Pom Klementieff',
+        alias:'Mantis',
+        power:'Empath, Able to Sense and Manipulate Emotions',
+        team:'Guardians of the Galaxy',
+        photo:'mantis'
+    },
+    {
+        name:'Nebula',
+        alias:'Nebula',
+        power:'Cyborg',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/neb.jpg'
+    },
+    {
+        name:'Hercules',
+        alias:'Hercules',
+        power:'Demigod',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/herc.jpg'
+    },
+    {
+        name:'Katherine "Kitty" Pryde',
+        alias:'Shadowkat',
+        power:'ability to pass through solid matter',
+        team:'X-men',
+        photo:'imgs/kitty.jpg'
+    },
+    {
+        name:'Charles Xavier',
+        alias:'Profesor X',
+        power:'Telepath',
+        team:'X-men',
+        photo:'imgs/prof.jpg'
+    },
+    {
+        name:'Nathan Summers',
+        alias:'Cable',
+        power:'telepathic and telekinetic + Guns',
+        team:'X-men',
+        photo:'imgs/cable.jpg'
+    },
+    {
+        name:'Wade Wilson',
+        alias:'DeadPool',
+        power:'Intense healing abilities, fighting capabilities, insane',
+        team:'X-men',
+        photo:'imgs/deadpool.jpg'
+    },
+    {
+        name:'Shiro Yoshida',
+        alias:'Sunfire',
+        power:'Fire',
+        team:'X-men',
+        photo:'imgs/sunfire.jpg'
+    },
+    {
+        name:'Jennifer Walters',
+        alias:'She-Hulk',
+        power:'everyone hulk does but girly',
+        team:'Defenders',
+        photo:'imgs/she.jpg'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
         name:'1',
         alias:'2',
         power:'3',
@@ -293,6 +496,234 @@ const players = [
         team:'4',
         photo:'5'
     },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    },
+    {
+        name:'1',
+        alias:'2',
+        power:'3',
+        team:'4',
+        photo:'5'
+    }
+ 
+
+
+
 
 
 ]
