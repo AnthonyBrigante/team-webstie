@@ -354,7 +354,7 @@ const players = [
         alias:'Mantis',
         power:'Empath, Able to Sense and Manipulate Emotions',
         team:'Guardians of the Galaxy',
-        photo:'mantis'
+        photo:'imgs/mantis.jpg'
     },
     {
         name:'Nebula',
@@ -413,144 +413,144 @@ const players = [
         photo:'imgs/she.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Wanda Maximoff',
+        alias:'The Scarlet Witch',
+        power:' telekinesis, which allows her to manipulate objects and even matter at the molecular level',
+        team:'X-Men',
+        photo:'imgs/wanda.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Elektra Natchios',
+        alias:'Elektra',
+        power:'sai',
+        team:'Defenders',
+        photo:'imgs/elektra.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'En Sabah Nur',
+        alias:'Apocalypse',
+        power:'Immortality, Teleportation, Telekinesis, Energy Projection, Power absorption, Energy manipulation, Technopathy',
+        team:'X-men',
+        photo:'imgs/app.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Dane Whitman',
+        alias:'Black Knight',
+        power:'enhanced strength, speed, agility, and reflexes, along with expert swordsmanship',
+        team:'Avengers',
+        photo:'imgs/black.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Samuel Zachary "Sam" Guthrie',
+        alias:'Cannon Ball',
+        power:'bodily generate thermo-chemical energy and release it from his skin',
+        team:'X-men',
+        photo:'imgs/ball.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Tyrone "Ty" Johnson',
+        alias:'Cloak',
+        power:'channel Darkforce, teleport, and become intangible',
+        team:'Defenders',
+        photo:'imgs/ty.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Tandy Bowen',
+        alias:'Dagger',
+        power:'manipulation of light, creating healing blades, and psionic energy',
+        team:'Defenders',
+        photo:'imgs/dagger.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Illyana Rasputin',
+        alias:'Magik',
+        power:'powerful sorceress and mutant able to teleport across time and space',
+        team:'X-men',
+        photo:'imgs/magik.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Glob Herman',
+        alias:'Glob',
+        power:'enhanced durability, resistance to injury, and the ability to regenerate his body if damaged',
+        team:'X-men',
+        photo:'imgs/glob.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Carol Danvers',
+        alias:'Captain Marvel',
+        power:'cosmic energy manipulation, flight, superhuman strength, speed, agility, and durability',
+        team:'Avengers',
+        photo:'imgs/captain marvel.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Hector Ayala',
+        alias:'White Tiger',
+        power:'superhuman strength, speed, endurance, agility, and the ability to heal wounds',
+        team:'Defenders',
+        photo:'imgs/tiger.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Ego',
+        alias:'Ego The Living Planet',
+        power:'nigh-immortality, molecular manipulation, and the ability to create planets',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/ego.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Goose',
+        alias:'Goose the Cat',
+        power:'shoot large tentacles from its mouth',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/goose.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Jarhead',
+        alias:'Jarhead',
+        power:'Jar with a brain in it',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/jarhead.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'1Sam Wilson',
+        alias:'Falcon',
+        power:'Winged Jetpack',
+        team:'Avengers',
+        photo:'imgs/falcon.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'General Thaddeus E. Ross',
+        alias:'Red Hulk',
+        power:'Stronger, Redder, Angrier',
+        team:'Avengers',
+        photo:'imgs/red.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Erik Stephan Josten',
+        alias:'Atlas',
+        power:'size changing',
+        team:'Avengers',
+        photo:'imgs/atlas.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Sean Cassidy',
+        alias:'Banshee',
+        power:'sonic screams',
+        team:'X-men',
+        photo:'imgs/banshee.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Barnell Bohusk',
+        alias:'Beak',
+        power:'human vulture',
+        team:'X-men',
+        photo:'imgs/beak.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Doop',
+        alias:'Doop',
+        power:'Flight Accelerated healing factor Superhuman strength ',
+        team:'X-men',
+        photo:'imgs/doop.jpg'
     },
     {
         name:'1',
