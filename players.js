@@ -553,92 +553,85 @@ const players = [
         photo:'imgs/doop.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Jamie Madrox',
+        alias:'The Multiple Man',
+        power:'Duplication',
+        team:'X-men',
+        photo:'imgs/madrox.jpg'
+    },
+    {
+        name:'Xabi',
+        alias:'ForgetMeNot',
+        power:'if you are not in his vision you dont know who he is',
+        team:'X-men',
+        photo:'imgs/forget.jpg'
+    },
+    {
+        name:'Bucky Barnes',
+        alias:'Winter Soilder',
+        power:'Metal Arm',
+        team:'Avengers',
+        photo:'imgs/winter.jpg'
+    },
+    {
+        name:'Ka-Zar',
+        alias:'Ka-Zar',
+        power:'exceptional physical prowess and survival skills',
+        team:'Avengers',
+        photo:'imgs/kazar.jpg'
+    },
+    {
+        name:'Doreen Allene Green',
+        alias:'Squirrel Girl',
+        power:'Undefeatable,tail',
+        team:'Avengers',
+        photo:'imgs/sq.jpg'
+    },
+    {
+        name:'Dennis Dunphy',
+        alias:'Demolition Man',
+        power:'Wreslter?',
+        team:'Avengers',
+        photo:'imgs/dman.jpg'
+    },
+    {
+        name:'Kyle Richmond',
+        alias:'Nighthawk',
+        power:'night vision, sharp claws, jet-powered flight, lasers, and defensive capabilities',
+        team:'Defenders',
+        photo:'imgs/night.jpg'
+    },
+    {
+        name:'Richard Rider)',
+        alias:'Nova',
+        power:'Superhuman strength, speed, stamina, accuracy, agility, reflexes, and durability',
+        team:'Defenders',
+        photo:'imgs/nova.jpg'
+    },
+    {
+        name:'Eugene "Flash" Thompso',
+        alias:'Agent Venom',
+        power:'Venom Symbiote',
+        team:'Guardians of the Galaxy',
+        photo:'imgs/venom.jpg'
+    },
+    {
+        name:'Daniel Lone Eagle',
+        alias:'Forge',
+        power:'can build anything he thinks of',
+        team:'X-men',
+        photo:'imgs/forge.jpg'
+    },
+    {
+        name:'Humanoid Experimental Robot B-Type Integrated Electronics',
+        alias:'H.E.R.B.I.E.',
+        power:'robot',
+        team:'Fantastic Four',
+        photo:'imgs/herbie.jpg'
     },
     {
         name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
+        alias:'Marrow',
         power:'3',
         team:'4',
         photo:'5'
