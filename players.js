@@ -630,88 +630,46 @@ const players = [
         photo:'imgs/herbie.jpg'
     },
     {
-        name:'1',
+        name:'Sarah Rushman',
         alias:'Marrow',
-        power:'3',
-        team:'4',
-        photo:'5'
+        power:'grow and retract bones from her ody',
+        team:'X-men',
+        photo:'imgs/marrow.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Natasha Romanoff',
+        alias:'Black Widow',
+        power:'Spy, combat abilities',
+        team:'Avengers',
+        photo:'imgs/blackwidow.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Christopher Powell',
+        alias:'DarkHawk',
+        power:'Superhuman strength, Retractable glider wings, Force blasts and force fields,',
+        team:'Avengers',
+        photo:'imgs/darkhawk.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Armondo Munoz',
+        alias:'Darwin',
+        power:'body thats able to adapt to anything',
+        team:'X-men',
+        photo:'imgs/darwin.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Devl Dinosaur',
+        alias:'Devl Dinosaur',
+        power:'T-Rex Demon',
+        team:'Avengers',
+        photo:'imgs/devil dino.jpg'
     },
     {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
-    },
-    {
-        name:'1',
-        alias:'2',
-        power:'3',
-        team:'4',
-        photo:'5'
+        name:'Fabio Medina',
+        alias:'Egg',
+        power:'ability to produce limetless golden eggs',
+        team:'X-men',
+        photo:'imgs/egg.jpg'
     }
  
 
