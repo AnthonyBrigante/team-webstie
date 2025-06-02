@@ -4,672 +4,769 @@ const players = [
         alias:'The Wolverine',
         power:'Superhumman healing and senses, metal claws/bones',
         team:'X-men',
-        photo:'imgs/wolverine.jpg'
+        photo:'imgs/wolverine.jpg',
+        fact:''
+        
     },
     {
         name:'Steve Rogers',
         alias:'Captain America',
         power:'super strength, super stamina, Great leadership and determination',
         team:'Avengers',
-        photo:'imgs/cap.jpg'
+        photo:'imgs/cap.jpg',
+        fact:''
     },
     {
         name:'Ben Grimm',
         alias:'The Thing',
         power:'super strength, rock skin',
         team:'Fantastic Four',
-        photo:'imgs/the thing.jpg'
+        photo:'imgs/the thing.jpg',
+        fact:''
     },
     {
         name:'Scott Summers',
         alias:'Cyclops',
         power:'Concusive force optic beam',
         team:'X-men',
-        photo:'imgs/cyclops.jpg'
+        photo:'imgs/cyclops.jpg',
+        fact:''
     },
     {
         name:'Johnny Storm',
         alias:'Human Torch',
         power:'FLAME ON!',
         team:'Fantastic Four',
-        photo:'imgs/torch.jpg'
+        photo:'imgs/torch.jpg',
+        fact:''
     },
     {
         name:'Kurt Wagner',
         alias:'Night Crawler',
         power:'Teleportation, swordplay skills',
         team:'X-men',
-        photo:'imgs/kurt.jpg'
+        photo:'imgs/kurt.jpg',
+        fact:''
     },
     {
         name:'Reed Richards',
         alias:'Mr.Fantastic',
         power:'Stretchy',
         team:'Fantastic Four',
-        photo:'imgs/FN.jpg'
+        photo:'imgs/FN.jpg',
+        fact:''
     },
     {
         name:'Bruce Banner',
         alias:'The Hulk',
         power:'Super Strength, Super healing, Super Angry',
         team:'Avengers',
-        photo:'imgs/hulk.jpg'
+        photo:'imgs/hulk.jpg',
+        fact:''
     },
     {
         name:'Sue Storm/Richards',
         alias:'Invisible Woman',
         power:'Invisibility, Force Fields',
         team:'Fantastic Four',
-        photo:'imgs/invis.jpg'
+        photo:'imgs/invis.jpg',
+        fact:''
     },
     {
         name:'Mathew Murdock',
         alias:'Daredevil',
         power:'Enhanced senses(Not Sight)',
         team:'Defenders',
-        photo:'imgs/DD.jpg'
+        photo:'imgs/DD.jpg',
+        fact:''
     },
     {
         name:'Tony Stark',
         alias:'Iron Man',
         power:'Rich',
         team:'Avengers',
-        photo:'imgs/Irron man.jpg'
+        photo:'imgs/Irron man.jpg',
+        fact:''
     },
     {
         name:'Piotr Nikolaievitch Rasputin',
         alias:'Colosus',
         power:'turn skin into metal, super strength, Vodka',
         team:'X-men',
-        photo:'imgs/colosus.jpg'
+        photo:'imgs/colosus.jpg',
+        fact:''
     },
     {
         name:'Luke Cage',
         alias:'Power Man',
         power:'Invulnerability, super strength',
         team:'Defenders',
-        photo:'imgs/cage.jpg'
+        photo:'imgs/cage.jpg',
+        fact:''
     },
     {
     name:'Peter Quill',
     alias:'Star Lord (Who?)',
     power:'Funny, Guns',
     team:'Guardians of the Galaxy',
-    photo:'imgs/star lord.jpg'
+    photo:'imgs/star lord.jpg',
+    fact:''
     },
     {
         name:'Thor Odinson',
         alias:'Thor',
         power:'God of Thunder',
         team:'Avengers',
-        photo:'imgs/thor.jpg'
+        photo:'imgs/thor.jpg',
+        fact:''
     },
     {
         name:'Ororo Munroe',
         alias:'Storm',
         power:'Contorls weather',
         team:'X-men',
-        photo:'imgs/storm.jpg'
+        photo:'imgs/storm.jpg',
+        fact:''
     },
     {
         name:'stephen strange',
         alias:'Doctor Strange',
         power:'sorcerer supreme, Master of the Mystical Arts',
         team:'Defenders',
-        photo:'imgs/strange.jpg'
+        photo:'imgs/strange.jpg',
+        fact:''
     },
     {
         name:'Hank pym',
         alias:'Giant-Man/Ant-Man',
         power:'size changing',
         team:'Avengers',
-        photo:'imgs/ant.jpg'
+        photo:'imgs/ant.jpg',
+        fact:''
     },
     {
         name:'Arthur Sampson Douglas',
         alias:'Drax The Destroyer',
         power:'super strength,flight',
         team:'Guardians of the Galaxy',
-        photo:'imgs/drax.jpg'
+        photo:'imgs/drax.jpg',
+        fact:''
     },
     {
         name:'Frank castle',
         alias:'The Puniher',
         power:'advanced weaponry skills',
         team:'Defenders',
-        photo:'imgs/punisher.jpg'
+        photo:'imgs/punisher.jpg',
+        fact:''
     },
     {
         name:'Remy Lebeau',
         alias:'The Gambit',
         power:'manipulate and store energy within objects',
         team:'X-men',
-        photo:'imgs/gambit.jpg'
+        photo:'imgs/gambit.jpg',
+        fact:''
     },
     {
         name:'Groot',
         alias:'Groot',
         power:'I AM GROOOOOT',
         team:'Guardians of the Galaxy',
-        photo:'imgs/groot.jpg'
+        photo:'imgs/groot.jpg',
+        fact:''
     },
     {
         name:'Rocket',
         alias:'Rocket Racoon',
         power:'exoskeleton, weapons',
         team:'Guardians of the Galaxy',
-        photo:'imgs/rocket.jpg'
+        photo:'imgs/rocket.jpg',
+        fact:''
     },
     {
         name:'Danny Rand',
         alias:'Iorn-Fist',
         power:'Martial Arts Master, Energy Attacks',
         team:'Defenders',
-        photo:'imgs/iorn fist.jpg'
+        photo:'imgs/iorn fist.jpg',
+        fact:''
     },
     {
         name:'Peter Parker',
         alias:'Spider-Man',
         power:'Everything a Spider can',
         team:'Avengers',
-        photo:'imgs/spidey.jpg'
+        photo:'imgs/spidey.jpg',
+        fact:''
     },
     {
         name:'Bobby Drake',
         alias:'Iceman',
         power:'creation of ice, ice skin',
         team:'X-men',
-        photo:'imgs/iceman.jpg'
+        photo:'imgs/iceman.jpg',
+        fact:''
     },
     {
         name:'Johnny Blaze',
         alias:'Ghost Rider',
         power:'Spirit of Vengence',
         team:'Defenders',
-        photo:'imgs/ghost.jpg'
+        photo:'imgs/ghost.jpg',
+        fact:''
     },
     {
         name:'Gamora Zen Whoberi Ben Titan',
         alias:'Gamora',
         power:'sword',
         team:'Guardians of the Galaxy',
-        photo:'imgs/gamora.jpg'
+        photo:'imgs/gamora.jpg',
+        fact:''
     },
     {
         name:'Warren Kenneth Worthington III',
         alias:'Angel',
         power:'Pidgeon wings',
         team:'X-men',
-        photo:'imgs/angel.jpg'
+        photo:'imgs/angel.jpg',
+        fact:''
     },
     {
         name:'Tchala',
         alias:'Black Panther',
         power:'Panther Powers',
         team:'Avengers',
-        photo:'imgs/panther.jpg'
+        photo:'imgs/panther.jpg',
+        fact:''
     },
     {
         name:'Hank Mcoy',
         alias:'The Beast',
         power:'Blue,Fuzzy,Acrobatic,Stength',
         team:'X-men',
-        photo:'imgs/beast.jpg'
+        photo:'imgs/beast.jpg',
+        fact:''
     },
     {
         name:'Cosmo',
         alias:'Cosmo',
         power:'Space Dog, Telepathic',
         team:'Guardians of the Galaxy',
-        photo:'imgs/cosmo.jpg'
+        photo:'imgs/cosmo.jpg',
+        fact:''
     },
     {
         name:'Marc Spector, Steven Grant, Jake Lockley',
         alias:'Moonknight',
         power:'Skitzo, Avatar of the moon god Knoshu',
         team:'Defenders',
-        photo:'imgs/MOOON.jpg'
+        photo:'imgs/MOOON.jpg',
+        fact:''
     },
     {
         name:'Namor McKenzie',
         alias:'Namor the Submariner',
         power:'King of Atlantis',
         team:'Defenders',
-        photo:'imgs/namor.jpg'
+        photo:'imgs/namor.jpg',
+        fact:''
     },
     {
         name:'Robert "Bob" Reynolds',
         alias:'Sentry',
         power:'strength, flight, also skitzo',
         team:'Avengers',
-        photo:'imgs/sentrey.jpg'
+        photo:'imgs/sentrey.jpg',
+        fact:''
     },
     {
         name:'Elizabeth “Betsy” Braddock',
         alias:'Psylocke',
         power:'psionic energy',
         team:'X-men',
-        photo:'imgs/psy.jpg'
+        photo:'imgs/psy.jpg',
+        fact:''
     },
     {
         name:'Anna Marie LeBeau',
         alias:'Rogue',
         power:'absorb memories, powers, personality traits, physical talents, and strength',
         team:'X-men',
-        photo:'imgs/rouge.jpg'
+        photo:'imgs/rouge.jpg',
+        fact:''
     },
     {
         name:'Vision',
         alias:'Vision',
         power:'flight, strength, laser, transparency',
         team:'Avengers',
-        photo:'imgs/vision.jpg'
+        photo:'imgs/vision.jpg',
+        fact:''
     },
     {
         name:'Norrin Radd',
         alias:'Silver Surfer',
         power:'wields the Power Cosmic',
         team:'Defenders',
-        photo:'imgs/silver.jpg'
+        photo:'imgs/silver.jpg',
+        fact:''
     },
     {
         name:'Jean Grey',
         alias:'Marvel girl,Phoenix',
         power:' powerful telekinetic and telepathic abilities',
         team:'X-men',
-        photo:'imgs/jean.jpg'
+        photo:'imgs/jean.jpg',
+        fact:''
     },
     {
         name:'Clint Bartin',
         alias:'Hawkeye',
         power:'Master Marksemen',
         team:'Avengers',
-        photo:'imgs/hawk.jpg'
+        photo:'imgs/hawk.jpg',
+        fact:''
     },
     {
         name:'Eric Cross Brooks',
         alias:'Blade',
         power:'Daywalking Vampire',
         team:'Defenders',
-        photo:'imgs/blade.jpg'
+        photo:'imgs/blade.jpg',
+        fact:''
     },
     {
         name:'Pietro Django Maximoff',
         alias:'Quicksilver',
         power:'Super Speed',
         team:'Avengers',
-        photo:'imgs/quick.jpg'
+        photo:'imgs/quick.jpg',
+        fact:''
     },
     {
         name:'Erik Magnus Lehnsherr',
         alias:'Magneto',
         power:'control metal',
         team:'X-men',
-        photo:'imgs/magneto.jpg'
+        photo:'imgs/magneto.jpg',
+        fact:''
     },
     {
         name:'Cain Marko',
         alias:'juggernaut',
         power:'unstoppable',
         team:'X-men',
-        photo:'imgs/jugg.jpg'
+        photo:'imgs/jugg.jpg',
+        fact:''
     },
     {
         name:' John Aaron',
         alias:'Ares',
         power:'God of War',
         team:'Avengers',
-        photo:'imgs/ares.jpg'
+        photo:'imgs/ares.jpg',
+        fact:''
     },
     {
         name:'Morgan Michaels',
         alias:'Morbious',
         power:'The living vampire',
         team:'Avengers',
-        photo:'imgs/morbious.jpg'
+        photo:'imgs/morbious.jpg',
+        fact:''
     },
     {
         name:'Simon Williams',
         alias:'Wonder Man',
         power:'Strength, flight, energy projection',
         team:'Avengers',
-        photo:'imgs/wonderman.jpg'
+        photo:'imgs/wonderman.jpg',
+        fact:''
     },
     {
         name:'Yondu Udonta',
         alias:'Yondu',
         power:'Magic Arrow Controlled by Whistles',
         team:'Guardians of the Galaxy',
-        photo:'imgs/yondu.jpg'
+        photo:'imgs/yondu.jpg',
+        fact:''
     },
     {
         name:'Adam Warlock',
         alias:'Adam Warlock',
         power:'The perfect being',
         team:'Guardians of the Galaxy',
-        photo:'imgs/warlock.jpg'
+        photo:'imgs/warlock.jpg',
+        fact:''
     },
     {
         name:'Pom Klementieff',
         alias:'Mantis',
         power:'Empath, Able to Sense and Manipulate Emotions',
         team:'Guardians of the Galaxy',
-        photo:'imgs/mantis.jpg'
+        photo:'imgs/mantis.jpg',
+        fact:''
     },
     {
         name:'Nebula',
         alias:'Nebula',
         power:'Cyborg',
         team:'Guardians of the Galaxy',
-        photo:'imgs/neb.jpg'
+        photo:'imgs/neb.jpg',
+        fact:''
     },
     {
         name:'Hercules',
         alias:'Hercules',
         power:'Demigod',
         team:'Guardians of the Galaxy',
-        photo:'imgs/herc.jpg'
+        photo:'imgs/herc.jpg',
+        fact:''
     },
     {
         name:'Katherine "Kitty" Pryde',
         alias:'Shadowkat',
         power:'ability to pass through solid matter',
         team:'X-men',
-        photo:'imgs/kitty.jpg'
+        photo:'imgs/kitty.jpg',
+        fact:''
     },
     {
         name:'Charles Xavier',
         alias:'Profesor X',
         power:'Telepath',
         team:'X-men',
-        photo:'imgs/prof.jpg'
+        photo:'imgs/prof.jpg',
+        fact:''
     },
     {
         name:'Nathan Summers',
         alias:'Cable',
         power:'telepathic and telekinetic + Guns',
         team:'X-men',
-        photo:'imgs/cable.jpg'
+        photo:'imgs/cable.jpg',
+        fact:''
     },
     {
         name:'Wade Wilson',
         alias:'DeadPool',
         power:'Intense healing abilities, fighting capabilities, insane',
         team:'X-men',
-        photo:'imgs/deadpool.jpg'
+        photo:'imgs/deadpool.jpg',
+        fact:''
     },
     {
         name:'Shiro Yoshida',
         alias:'Sunfire',
         power:'Fire',
         team:'X-men',
-        photo:'imgs/sunfire.jpg'
+        photo:'imgs/sunfire.jpg',
+        fact:''
     },
     {
         name:'Jennifer Walters',
         alias:'She-Hulk',
         power:'everyone hulk does but girly',
         team:'Defenders',
-        photo:'imgs/she.jpg'
+        photo:'imgs/she.jpg',
+        fact:''
     },
     {
         name:'Wanda Maximoff',
         alias:'The Scarlet Witch',
         power:' telekinesis, which allows her to manipulate objects and even matter at the molecular level',
         team:'X-Men',
-        photo:'imgs/wanda.jpg'
+        photo:'imgs/wanda.jpg',
+        fact:''
     },
     {
         name:'Elektra Natchios',
         alias:'Elektra',
         power:'sai',
         team:'Defenders',
-        photo:'imgs/elektra.jpg'
+        photo:'imgs/elektra.jpg',
+        fact:''
     },
     {
         name:'En Sabah Nur',
         alias:'Apocalypse',
         power:'Immortality, Teleportation, Telekinesis, Energy Projection, Power absorption, Energy manipulation, Technopathy',
         team:'X-men',
-        photo:'imgs/app.jpg'
+        photo:'imgs/app.jpg',
+        fact:''
     },
     {
         name:'Dane Whitman',
         alias:'Black Knight',
         power:'enhanced strength, speed, agility, and reflexes, along with expert swordsmanship',
         team:'Avengers',
-        photo:'imgs/black.jpg'
+        photo:'imgs/black.jpg',
+        fact:''
     },
     {
         name:'Samuel Zachary "Sam" Guthrie',
         alias:'Cannon Ball',
         power:'bodily generate thermo-chemical energy and release it from his skin',
         team:'X-men',
-        photo:'imgs/ball.jpg'
+        photo:'imgs/ball.jpg',
+        fact:''
     },
     {
         name:'Tyrone "Ty" Johnson',
         alias:'Cloak',
         power:'channel Darkforce, teleport, and become intangible',
         team:'Defenders',
-        photo:'imgs/ty.jpg'
+        photo:'imgs/ty.jpg',
+        fact:''
     },
     {
         name:'Tandy Bowen',
         alias:'Dagger',
         power:'manipulation of light, creating healing blades, and psionic energy',
         team:'Defenders',
-        photo:'imgs/dagger.jpg'
+        photo:'imgs/dagger.jpg',
+        fact:''
     },
     {
         name:'Illyana Rasputin',
         alias:'Magik',
         power:'powerful sorceress and mutant able to teleport across time and space',
         team:'X-men',
-        photo:'imgs/magik.jpg'
+        photo:'imgs/magik.jpg',
+        fact:''
     },
     {
         name:'Glob Herman',
         alias:'Glob',
         power:'enhanced durability, resistance to injury, and the ability to regenerate his body if damaged',
         team:'X-men',
-        photo:'imgs/glob.jpg'
+        photo:'imgs/glob.jpg',
+        fact:''
     },
     {
         name:'Carol Danvers',
         alias:'Captain Marvel',
         power:'cosmic energy manipulation, flight, superhuman strength, speed, agility, and durability',
         team:'Avengers',
-        photo:'imgs/captain marvel.jpg'
+        photo:'imgs/captain marvel.jpg',
+        fact:''
     },
     {
         name:'Hector Ayala',
         alias:'White Tiger',
         power:'superhuman strength, speed, endurance, agility, and the ability to heal wounds',
         team:'Defenders',
-        photo:'imgs/tiger.jpg'
+        photo:'imgs/tiger.jpg',
+        fact:''
     },
     {
         name:'Ego',
         alias:'Ego The Living Planet',
         power:'nigh-immortality, molecular manipulation, and the ability to create planets',
         team:'Guardians of the Galaxy',
-        photo:'imgs/ego.jpg'
+        photo:'imgs/ego.jpg',
+        fact:''
     },
     {
         name:'Goose',
         alias:'Goose the Cat',
         power:'shoot large tentacles from its mouth',
         team:'Guardians of the Galaxy',
-        photo:'imgs/goose.jpg'
+        photo:'imgs/goose.jpg',
+        fact:''
     },
     {
         name:'Jarhead',
         alias:'Jarhead',
         power:'Jar with a brain in it',
         team:'Guardians of the Galaxy',
-        photo:'imgs/jarhead.jpg'
+        photo:'imgs/jarhead.jpg',
+        fact:''
     },
     {
         name:'1Sam Wilson',
         alias:'Falcon',
         power:'Winged Jetpack',
         team:'Avengers',
-        photo:'imgs/falcon.jpg'
+        photo:'imgs/falcon.jpg',
+        fact:''
     },
     {
         name:'General Thaddeus E. Ross',
         alias:'Red Hulk',
         power:'Stronger, Redder, Angrier',
         team:'Avengers',
-        photo:'imgs/red.jpg'
+        photo:'imgs/red.jpg',
+        fact:''
     },
     {
         name:'Erik Stephan Josten',
         alias:'Atlas',
         power:'size changing',
         team:'Avengers',
-        photo:'imgs/atlas.jpg'
+        photo:'imgs/atlas.jpg',
+        fact:''
     },
     {
         name:'Sean Cassidy',
         alias:'Banshee',
         power:'sonic screams',
         team:'X-men',
-        photo:'imgs/banshee.jpg'
+        photo:'imgs/banshee.jpg',
+        fact:''
     },
     {
         name:'Barnell Bohusk',
         alias:'Beak',
         power:'human vulture',
         team:'X-men',
-        photo:'imgs/beak.jpg'
+        photo:'imgs/beak.jpg',
+        fact:''
     },
     {
         name:'Doop',
         alias:'Doop',
         power:'Flight Accelerated healing factor Superhuman strength ',
         team:'X-men',
-        photo:'imgs/doop.jpg'
+        photo:'imgs/doop.jpg',
+        fact:''
     },
     {
         name:'Jamie Madrox',
         alias:'The Multiple Man',
         power:'Duplication',
         team:'X-men',
-        photo:'imgs/madrox.jpg'
+        photo:'imgs/madrox.jpg',
+        fact:''
     },
     {
         name:'Xabi',
         alias:'ForgetMeNot',
         power:'if you are not in his vision you dont know who he is',
         team:'X-men',
-        photo:'imgs/forget.jpg'
+        photo:'imgs/forget.jpg',
+        fact:''
     },
     {
         name:'Bucky Barnes',
         alias:'Winter Soilder',
         power:'Metal Arm',
         team:'Avengers',
-        photo:'imgs/winter.jpg'
+        photo:'imgs/winter.jpg',
+        fact:''
     },
     {
         name:'Ka-Zar',
         alias:'Ka-Zar',
         power:'exceptional physical prowess and survival skills',
         team:'Avengers',
-        photo:'imgs/kazar.jpg'
+        photo:'imgs/kazar.jpg',
+        fact:''
     },
     {
         name:'Doreen Allene Green',
         alias:'Squirrel Girl',
         power:'Undefeatable,tail',
         team:'Avengers',
-        photo:'imgs/sq.jpg'
+        photo:'imgs/sq.jpg',
+        fact:''
     },
     {
         name:'Dennis Dunphy',
         alias:'Demolition Man',
         power:'Wreslter?',
         team:'Avengers',
-        photo:'imgs/dman.jpg'
+        photo:'imgs/dman.jpg',
+        fact:''
     },
     {
         name:'Kyle Richmond',
         alias:'Nighthawk',
         power:'night vision, sharp claws, jet-powered flight, lasers, and defensive capabilities',
         team:'Defenders',
-        photo:'imgs/night.jpg'
+        photo:'imgs/night.jpg',
+        fact:''
     },
     {
         name:'Richard Rider)',
         alias:'Nova',
         power:'Superhuman strength, speed, stamina, accuracy, agility, reflexes, and durability',
         team:'Defenders',
-        photo:'imgs/nova.jpg'
+        photo:'imgs/nova.jpg',
+        fact:''
     },
     {
         name:'Eugene "Flash" Thompso',
         alias:'Agent Venom',
         power:'Venom Symbiote',
         team:'Guardians of the Galaxy',
-        photo:'imgs/venom.jpg'
+        photo:'imgs/venom.jpg',
+        fact:''
     },
     {
         name:'Daniel Lone Eagle',
         alias:'Forge',
         power:'can build anything he thinks of',
         team:'X-men',
-        photo:'imgs/forge.jpg'
+        photo:'imgs/forge.jpg',
+        fact:''
     },
     {
         name:'Humanoid Experimental Robot B-Type Integrated Electronics',
         alias:'H.E.R.B.I.E.',
         power:'robot',
         team:'Fantastic Four',
-        photo:'imgs/herbie.jpg'
+        photo:'imgs/herbie.jpg',
+        fact:''
     },
     {
         name:'Sarah Rushman',
         alias:'Marrow',
         power:'grow and retract bones from her ody',
         team:'X-men',
-        photo:'imgs/marrow.jpg'
+        photo:'imgs/marrow.jpg',
+        fact:''
     },
     {
         name:'Natasha Romanoff',
         alias:'Black Widow',
         power:'Spy, combat abilities',
         team:'Avengers',
-        photo:'imgs/blackwidow.jpg'
+        photo:'imgs/blackwidow.jpg',
+        fact:''
     },
     {
         name:'Christopher Powell',
         alias:'DarkHawk',
         power:'Superhuman strength, Retractable glider wings, Force blasts and force fields,',
         team:'Avengers',
-        photo:'imgs/darkhawk.jpg'
+        photo:'imgs/darkhawk.jpg',
+        fact:''
     },
     {
         name:'Armondo Munoz',
         alias:'Darwin',
         power:'body thats able to adapt to anything',
         team:'X-men',
-        photo:'imgs/darwin.jpg'
+        photo:'imgs/darwin.jpg',
+        fact:''
     },
     {
         name:'Devl Dinosaur',
         alias:'Devl Dinosaur',
         power:'T-Rex Demon',
         team:'Avengers',
-        photo:'imgs/devil dino.jpg'
+        photo:'imgs/devil dino.jpg',
+        fact:''
     },
     {
         name:'Fabio Medina',
         alias:'Egg',
         power:'ability to produce limetless golden eggs',
         team:'X-men',
-        photo:'imgs/egg.jpg'
+        photo:'imgs/egg.jpg',
+        fact:''
     }
  
 

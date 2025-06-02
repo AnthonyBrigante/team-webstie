@@ -1,0 +1,113 @@
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+/* General Body Styling */
+body {
+    background-color: #F5F5F5;
+    color: #212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #212121;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Title and badges */
+.card-title {
+    color: #D32F2F;
+}
+
+.badge {
+    background-color: #D32F2F;
+    color: white;
+    font-weight: 600;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #D32F2F;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #b71c1c;
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #fefefe;
+    border: 2px solid #D32F2F;
+}
+.modal-header {
+    background-color: #D32F2F;
+    color: white;
+}
+.modal-body {
+    color: #212121;
+}
+
+/* Grid spacing and layout */
+#rosterGrid {
+    margin-top: 1rem;
+}
+
+/* Marvel style headings */
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+
+
+.badge-position {
+    padding: 0.4rem 0.8rem;
+    border: 2px solid;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+/* Avengers: red background, white text, red border */
+.badge-pos-avengers {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+/* X-Men: red background, yellow text, red border */
+.badge-pos-x-men {
+    background-color: red;
+    color: yellow;
+    border-color: red;
+}
+
+/* Fantastic Four: black background, blue text, black border */
+.badge-pos-fantastic-four {
+    background-color: black;
+    color: #2196F3; /* blue */
+    border-color: black;
+}
+
+/* Defenders: green background, yellow text, green border */
+.badge-pos-defenders {
+    background-color: green;
+    color: yellow;
+    border-color: green;
+}
