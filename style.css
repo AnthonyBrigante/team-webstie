@@ -84,28 +84,28 @@ h1, h2, h3, h4, h5 {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
-/* Avengers: red background, white text, red border */
+
 .badge-pos-avengers {
     background-color: red;
     color: white;
     border-color: red;
 }
 
-/* X-Men: red background, yellow text, red border */
+
 .badge-pos-x-men {
     background-color: red;
     color: yellow;
     border-color: red;
 }
 
-/* Fantastic Four: black background, blue text, black border */
+
 .badge-pos-fantastic-four {
     background-color: black;
     color: #2196F3; /* blue */
     border-color: black;
 }
 
-/* Defenders: green background, yellow text, green border */
+
 .badge-pos-defenders {
     background-color: green;
     color: yellow;

@@ -5,7 +5,7 @@ const players = [
         power:'Superhumman healing and senses, metal claws/bones',
         team:'X-men',
         photo:'imgs/wolverine.jpg',
-        fact:''
+        fact:'first appearance was in The Incredible Hulk #180 (1974) but he became iconic with the X-Men'
         
     },
     {
@@ -14,7 +14,7 @@ const players = [
         power:'super strength, super stamina, Great leadership and determination',
         team:'Avengers',
         photo:'imgs/cap.jpg',
-        fact:''
+        fact:'He was created in 1941, famously punching Hitler on the cover of his debut comic.'
     },
     {
         name:'Ben Grimm',
@@ -22,7 +22,7 @@ const players = [
         power:'super strength, rock skin',
         team:'Fantastic Four',
         photo:'imgs/the thing.jpg',
-        fact:''
+        fact:'“It’s clobberin’ time!'
     },
     {
         name:'Scott Summers',
@@ -30,7 +30,7 @@ const players = [
         power:'Concusive force optic beam',
         team:'X-men',
         photo:'imgs/cyclops.jpg',
-        fact:''
+        fact:'His optic blasts are powered by solar energy absorbed and stored in his body.'
     },
     {
         name:'Johnny Storm',
@@ -38,7 +38,9 @@ const players = [
         power:'FLAME ON!',
         team:'Fantastic Four',
         photo:'imgs/torch.jpg',
-        fact:''
+        fact:'Johnny Storm is the second Marvel character with this name; the first was an android from the 1930s.'
+
+
     },
     {
         name:'Kurt Wagner',
@@ -46,7 +48,7 @@ const players = [
         power:'Teleportation, swordplay skills',
         team:'X-men',
         photo:'imgs/kurt.jpg',
-        fact:''
+        fact:' His teleportation involves briefly traveling through another dimension.'
     },
     {
         name:'Reed Richards',
@@ -54,7 +56,7 @@ const players = [
         power:'Stretchy',
         team:'Fantastic Four',
         photo:'imgs/FN.jpg',
-        fact:''
+        fact:'Fantastic FN'
     },
     {
         name:'Bruce Banner',
@@ -62,7 +64,7 @@ const players = [
         power:'Super Strength, Super healing, Super Angry',
         team:'Avengers',
         photo:'imgs/hulk.jpg',
-        fact:''
+        fact:' Originally, Hulk was gray, but printing issues led to his iconic green color'
     },
     {
         name:'Sue Storm/Richards',
@@ -70,7 +72,7 @@ const players = [
         power:'Invisibility, Force Fields',
         team:'Fantastic Four',
         photo:'imgs/invis.jpg',
-        fact:''
+        fact:'If shes invisible why can she get hurt?'
     },
     {
         name:'Mathew Murdock',
@@ -78,7 +80,7 @@ const players = [
         power:'Enhanced senses(Not Sight)',
         team:'Defenders',
         photo:'imgs/DD.jpg',
-        fact:''
+        fact:'His heightened senses allow him to “see” through a radar-like sense, compensating for his blindness.'
     },
     {
         name:'Tony Stark',
@@ -86,7 +88,7 @@ const players = [
         power:'Rich',
         team:'Avengers',
         photo:'imgs/Irron man.jpg',
-        fact:''
+        fact:'Tony Stark’s character was inspired by real-life inventor and businessman Howard Hughes.'
     },
     {
         name:'Piotr Nikolaievitch Rasputin',
@@ -94,7 +96,7 @@ const players = [
         power:'turn skin into metal, super strength, Vodka',
         team:'X-men',
         photo:'imgs/colosus.jpg',
-        fact:''
+        fact:'He can transform his body into organic steel, granting him immense strength and durability.'
     },
     {
         name:'Luke Cage',
@@ -102,7 +104,9 @@ const players = [
         power:'Invulnerability, super strength',
         team:'Defenders',
         photo:'imgs/cage.jpg',
-        fact:''
+        fact:': He was the first Black superhero to headline his own comic book series in 1972.'
+
+
     },
     {
     name:'Peter Quill',
@@ -110,7 +114,7 @@ const players = [
     power:'Funny, Guns',
     team:'Guardians of the Galaxy',
     photo:'imgs/star lord.jpg',
-    fact:''
+    fact:'Peter Quill’s mixtape in the Guardians of the Galaxy films sparked renewed interest in 70s pop music'
     },
     {
         name:'Thor Odinson',
@@ -118,7 +122,7 @@ const players = [
         power:'God of Thunder',
         team:'Avengers',
         photo:'imgs/thor.jpg',
-        fact:''
+        fact:'Thor reveals that he loves hotdogs and beer'
     },
     {
         name:'Ororo Munroe',
@@ -126,7 +130,7 @@ const players = [
         power:'Contorls weather',
         team:'X-men',
         photo:'imgs/storm.jpg',
-        fact:''
+        fact:' She was the first major Black female superhero in comics, debuting in 1975'
     },
     {
         name:'stephen strange',
@@ -134,7 +138,7 @@ const players = [
         power:'sorcerer supreme, Master of the Mystical Arts',
         team:'Defenders',
         photo:'imgs/strange.jpg',
-        fact:''
+        fact:'His Sanctum Sanctorum is located at 177A Bleecker Street in New York City.'
     },
     {
         name:'Hank pym',
@@ -142,7 +146,7 @@ const players = [
         power:'size changing',
         team:'Avengers',
         photo:'imgs/ant.jpg',
-        fact:''
+        fact:'Can shrink to ant-size or grow to giant-size, yet still cant find a comfortable pair of pants.'
     },
     {
         name:'Arthur Sampson Douglas',
@@ -150,7 +154,7 @@ const players = [
         power:'super strength,flight',
         team:'Guardians of the Galaxy',
         photo:'imgs/drax.jpg',
-        fact:''
+        fact:'Drax takes everything literally. Sarcasm goes over his head—though hed argue nothing goes over his head, since his reflexes are too fast.'
     },
     {
         name:'Frank castle',
@@ -158,7 +162,7 @@ const players = [
         power:'advanced weaponry skills',
         team:'Defenders',
         photo:'imgs/punisher.jpg',
-        fact:''
+        fact:'Frank Castles skull emblem has become a symbol of vigilante justice.'
     },
     {
         name:'Remy Lebeau',
@@ -166,15 +170,15 @@ const players = [
         power:'manipulate and store energy within objects',
         team:'X-men',
         photo:'imgs/gambit.jpg',
-        fact:''
+        fact:'He can charge objects with kinetic energy, causing them to explode; his weapon of choice is a deck of cards.'
     },
     {
         name:'Groot',
         alias:'Groot',
         power:'I AM GROOOOOT',
-        team:'Guardians of the Galaxy',
+        team:'I AM GROOT',
         photo:'imgs/groot.jpg',
-        fact:''
+        fact:'I AM GROOT'
     },
     {
         name:'Rocket',
@@ -182,7 +186,7 @@ const players = [
         power:'exoskeleton, weapons',
         team:'Guardians of the Galaxy',
         photo:'imgs/rocket.jpg',
-        fact:''
+        fact:'He isnt a racoon'
     },
     {
         name:'Danny Rand',
@@ -190,7 +194,7 @@ const players = [
         power:'Martial Arts Master, Energy Attacks',
         team:'Defenders',
         photo:'imgs/iorn fist.jpg',
-        fact:''
+        fact:'Danny Rand gained his powers by defeating the dragon Shou-Lao the Undying.'
     },
     {
         name:'Peter Parker',
@@ -198,7 +202,7 @@ const players = [
         power:'Everything a Spider can',
         team:'Avengers',
         photo:'imgs/spidey.jpg',
-        fact:''
+        fact:'Peter Parker was the first teenage superhero who wasnt a sidekick.'
     },
     {
         name:'Bobby Drake',
@@ -206,7 +210,7 @@ const players = [
         power:'creation of ice, ice skin',
         team:'X-men',
         photo:'imgs/iceman.jpg',
-        fact:''
+        fact:'He is one of the original five X-Men who can make temp around him way below sub zero'
     },
     {
         name:'Johnny Blaze',
@@ -214,7 +218,7 @@ const players = [
         power:'Spirit of Vengence',
         team:'Defenders',
         photo:'imgs/ghost.jpg',
-        fact:''
+        fact:'His motorcycle can ride up vertical surfaces and across water.'
     },
     {
         name:'Gamora Zen Whoberi Ben Titan',
@@ -222,7 +226,9 @@ const players = [
         power:'sword',
         team:'Guardians of the Galaxy',
         photo:'imgs/gamora.jpg',
-        fact:''
+        fact:'Known as the "deadliest woman in the galaxy," she was raised by Thanos.'
+
+
     },
     {
         name:'Warren Kenneth Worthington III',
@@ -230,7 +236,7 @@ const players = [
         power:'Pidgeon wings',
         team:'X-men',
         photo:'imgs/angel.jpg',
-        fact:''
+        fact:'who cares'
     },
     {
         name:'Tchala',
@@ -238,7 +244,7 @@ const players = [
         power:'Panther Powers',
         team:'Avengers',
         photo:'imgs/panther.jpg',
-        fact:''
+        fact:'TREMBLE BEFORE BATHS'
     },
     {
         name:'Hank Mcoy',
@@ -246,7 +252,7 @@ const players = [
         power:'Blue,Fuzzy,Acrobatic,Stength',
         team:'X-men',
         photo:'imgs/beast.jpg',
-        fact:''
+        fact:'Big Hairy Blue Genius'
     },
     {
         name:'Cosmo',
@@ -254,7 +260,7 @@ const players = [
         power:'Space Dog, Telepathic',
         team:'Guardians of the Galaxy',
         photo:'imgs/cosmo.jpg',
-        fact:''
+        fact:'A telepathic Soviet space dog who serves as the security chief of his own planet'
     },
     {
         name:'Marc Spector, Steven Grant, Jake Lockley',
@@ -262,7 +268,7 @@ const players = [
         power:'Skitzo, Avatar of the moon god Knoshu',
         team:'Defenders',
         photo:'imgs/MOOON.jpg',
-        fact:''
+        fact:'THE MOOOOOOONNN'
     },
     {
         name:'Namor McKenzie',
@@ -270,7 +276,7 @@ const players = [
         power:'King of Atlantis',
         team:'Defenders',
         photo:'imgs/namor.jpg',
-        fact:''
+        fact:' He is considered Marvels first mutant, debuting in 1939.'
     },
     {
         name:'Robert "Bob" Reynolds',
@@ -278,7 +284,7 @@ const players = [
         power:'strength, flight, also skitzo',
         team:'Avengers',
         photo:'imgs/sentrey.jpg',
-        fact:''
+        fact:'Possesses the power of a million exploding suns but struggles with a dark alter ego, the Void.'
     },
     {
         name:'Elizabeth “Betsy” Braddock',
@@ -286,7 +292,7 @@ const players = [
         power:'psionic energy',
         team:'X-men',
         photo:'imgs/psy.jpg',
-        fact:''
+        fact:' Originally a British woman named Betsy Braddock, her mind was transferred into the body of a Japanese ninja.'
     },
     {
         name:'Anna Marie LeBeau',
@@ -294,7 +300,7 @@ const players = [
         power:'absorb memories, powers, personality traits, physical talents, and strength',
         team:'X-men',
         photo:'imgs/rouge.jpg',
-        fact:''
+        fact:'Look but dont touch'
     },
     {
         name:'Vision',
@@ -302,7 +308,7 @@ const players = [
         power:'flight, strength, laser, transparency',
         team:'Avengers',
         photo:'imgs/vision.jpg',
-        fact:''
+        fact:'An android created by Ultron but turned good'
     },
     {
         name:'Norrin Radd',
@@ -310,15 +316,17 @@ const players = [
         power:'wields the Power Cosmic',
         team:'Defenders',
         photo:'imgs/silver.jpg',
-        fact:''
+        fact:'Formerly Norrin Radd of Zenn-La, he became Galactuss herald to save his planet.'
+
+
     },
     {
         name:'Jean Grey',
-        alias:'Marvel girl,Phoenix',
+        alias:'Marvel girl/Phoenix',
         power:' powerful telekinetic and telepathic abilities',
         team:'X-men',
         photo:'imgs/jean.jpg',
-        fact:''
+        fact:'Jean Greys transformation into the Phoenix represents one of the most powerful entities in the Marvel Universe.'
     },
     {
         name:'Clint Bartin',
@@ -326,7 +334,7 @@ const players = [
         power:'Master Marksemen',
         team:'Avengers',
         photo:'imgs/hawk.jpg',
-        fact:''
+        fact:'also later became the ronin in marvel'
     },
     {
         name:'Eric Cross Brooks',
@@ -334,7 +342,7 @@ const players = [
         power:'Daywalking Vampire',
         team:'Defenders',
         photo:'imgs/blade.jpg',
-        fact:''
+        fact:'A half-vampire, Blade has all their strengths but none of their weaknesses.'
     },
     {
         name:'Pietro Django Maximoff',
@@ -342,7 +350,7 @@ const players = [
         power:'Super Speed',
         team:'Avengers',
         photo:'imgs/quick.jpg',
-        fact:''
+        fact:'Cant dodge a bullet'
     },
     {
         name:'Erik Magnus Lehnsherr',
@@ -350,7 +358,7 @@ const players = [
         power:'control metal',
         team:'X-men',
         photo:'imgs/magneto.jpg',
-        fact:''
+        fact:'A Holocaust survivor, his experiences shaped his militant advocacy for mutant rights.'
     },
     {
         name:'Cain Marko',
@@ -358,7 +366,9 @@ const players = [
         power:'unstoppable',
         team:'X-men',
         photo:'imgs/jugg.jpg',
-        fact:''
+        fact:'Once in motion, he is virtually unstoppable due to mystical energies.'
+
+
     },
     {
         name:' John Aaron',
@@ -366,7 +376,7 @@ const players = [
         power:'God of War',
         team:'Avengers',
         photo:'imgs/ares.jpg',
-        fact:''
+        fact:'The Greek god of war, he has been both an adversary and ally to various heroes.'
     },
     {
         name:'Morgan Michaels',
@@ -374,7 +384,7 @@ const players = [
         power:'The living vampire',
         team:'Avengers',
         photo:'imgs/morbious.jpg',
-        fact:''
+        fact:'A biochemist who transformed into a living vampire while attempting to cure his rare blood disease.'
     },
     {
         name:'Simon Williams',
@@ -382,7 +392,7 @@ const players = [
         power:'Strength, flight, energy projection',
         team:'Avengers',
         photo:'imgs/wonderman.jpg',
-        fact:''
+        fact:'Simon Williams is an actor-turned-superhero with ionic energy-based powers.'
     },
     {
         name:'Yondu Udonta',
@@ -390,7 +400,7 @@ const players = [
         power:'Magic Arrow Controlled by Whistles',
         team:'Guardians of the Galaxy',
         photo:'imgs/yondu.jpg',
-        fact:''
+        fact:' In the comics, he is a spiritual warrior from Centauri-IV, differing from his cinematic portrayal.'
     },
     {
         name:'Adam Warlock',
@@ -398,7 +408,7 @@ const players = [
         power:'The perfect being',
         team:'Guardians of the Galaxy',
         photo:'imgs/warlock.jpg',
-        fact:''
+        fact:'He was created to be the perfect human and has a deep connection to the Soul Gem.'
     },
     {
         name:'Pom Klementieff',
@@ -406,7 +416,7 @@ const players = [
         power:'Empath, Able to Sense and Manipulate Emotions',
         team:'Guardians of the Galaxy',
         photo:'imgs/mantis.jpg',
-        fact:''
+        fact:'MANTIS WATCH OUT'
     },
     {
         name:'Nebula',
@@ -414,7 +424,7 @@ const players = [
         power:'Cyborg',
         team:'Guardians of the Galaxy',
         photo:'imgs/neb.jpg',
-        fact:''
+        fact:' Claims to be Thanoss granddaughter'
     },
     {
         name:'Hercules',
@@ -422,7 +432,7 @@ const players = [
         power:'Demigod',
         team:'Guardians of the Galaxy',
         photo:'imgs/herc.jpg',
-        fact:''
+        fact:'Based on the Greek demigod, he is known for his strength and heroism.'
     },
     {
         name:'Katherine "Kitty" Pryde',
@@ -430,7 +440,7 @@ const players = [
         power:'ability to pass through solid matter',
         team:'X-men',
         photo:'imgs/kitty.jpg',
-        fact:''
+        fact:'has a pet dragon names lockheed'
     },
     {
         name:'Charles Xavier',
@@ -438,7 +448,7 @@ const players = [
         power:'Telepath',
         team:'X-men',
         photo:'imgs/prof.jpg',
-        fact:''
+        fact:'greatest enemies: stairs'
     },
     {
         name:'Nathan Summers',
@@ -446,7 +456,7 @@ const players = [
         power:'telepathic and telekinetic + Guns',
         team:'X-men',
         photo:'imgs/cable.jpg',
-        fact:''
+        fact:'cyclops son'
     },
     {
         name:'Wade Wilson',
@@ -454,7 +464,7 @@ const players = [
         power:'Intense healing abilities, fighting capabilities, insane',
         team:'X-men',
         photo:'imgs/deadpool.jpg',
-        fact:''
+        fact:'one of the only characters to break the forth wall in comics'
     },
     {
         name:'Shiro Yoshida',
@@ -462,7 +472,7 @@ const players = [
         power:'Fire',
         team:'X-men',
         photo:'imgs/sunfire.jpg',
-        fact:''
+        fact:'A Japanese mutant who can generate superheated plasma.'
     },
     {
         name:'Jennifer Walters',
@@ -470,7 +480,7 @@ const players = [
         power:'everyone hulk does but girly',
         team:'Defenders',
         photo:'imgs/she.jpg',
-        fact:''
+        fact:'Jennifer Walters gained her powers after receiving a blood transfusion from her cousin, Bruce Banner.'
     },
     {
         name:'Wanda Maximoff',
@@ -478,7 +488,7 @@ const players = [
         power:' telekinesis, which allows her to manipulate objects and even matter at the molecular level',
         team:'X-Men',
         photo:'imgs/wanda.jpg',
-        fact:''
+        fact:'daughter of Magneto sister of quicksilver'
     },
     {
         name:'Elektra Natchios',
@@ -486,7 +496,7 @@ const players = [
         power:'sai',
         team:'Defenders',
         photo:'imgs/elektra.jpg',
-        fact:''
+        fact:'A skilled assassin and occasional ally of Daredevil.'
     },
     {
         name:'En Sabah Nur',
@@ -494,7 +504,7 @@ const players = [
         power:'Immortality, Teleportation, Telekinesis, Energy Projection, Power absorption, Energy manipulation, Technopathy',
         team:'X-men',
         photo:'imgs/app.jpg',
-        fact:''
+        fact:'One of the first mutants, he believes in survival of the fittest.'
     },
     {
         name:'Dane Whitman',
@@ -502,7 +512,7 @@ const players = [
         power:'enhanced strength, speed, agility, and reflexes, along with expert swordsmanship',
         team:'Avengers',
         photo:'imgs/black.jpg',
-        fact:''
+        fact:'Wields the Ebony Blade, a mystical sword passed down through his family.'
     },
     {
         name:'Samuel Zachary "Sam" Guthrie',
@@ -510,7 +520,7 @@ const players = [
         power:'bodily generate thermo-chemical energy and release it from his skin',
         team:'X-men',
         photo:'imgs/ball.jpg',
-        fact:''
+        fact:'Sam Guthrie can propel himself through the air like a human rocket.'
     },
     {
         name:'Tyrone "Ty" Johnson',
@@ -518,7 +528,7 @@ const players = [
         power:'channel Darkforce, teleport, and become intangible',
         team:'Defenders',
         photo:'imgs/ty.jpg',
-        fact:''
+        fact:'Can engulf others in darkness and teleport them through the Darkforce Dimension.'
     },
     {
         name:'Tandy Bowen',
@@ -526,7 +536,7 @@ const players = [
         power:'manipulation of light, creating healing blades, and psionic energy',
         team:'Defenders',
         photo:'imgs/dagger.jpg',
-        fact:''
+        fact:'connected to cloak in a way'
     },
     {
         name:'Illyana Rasputin',
@@ -534,7 +544,7 @@ const players = [
         power:'powerful sorceress and mutant able to teleport across time and space',
         team:'X-men',
         photo:'imgs/magik.jpg',
-        fact:''
+        fact:'Illyana Rasputin, sister of Colossus'
     },
     {
         name:'Glob Herman',
@@ -542,7 +552,7 @@ const players = [
         power:'enhanced durability, resistance to injury, and the ability to regenerate his body if damaged',
         team:'X-men',
         photo:'imgs/glob.jpg',
-        fact:''
+        fact:' basically a walking jelly blob who can absorb impacts like a sponge.'
     },
     {
         name:'Carol Danvers',
@@ -550,7 +560,7 @@ const players = [
         power:'cosmic energy manipulation, flight, superhuman strength, speed, agility, and durability',
         team:'Avengers',
         photo:'imgs/captain marvel.jpg',
-        fact:''
+        fact:'She’s basically a cosmic powerhouse who also rocks a killer hairstyle.'
     },
     {
         name:'Hector Ayala',
@@ -558,7 +568,7 @@ const players = [
         power:'superhuman strength, speed, endurance, agility, and the ability to heal wounds',
         team:'Defenders',
         photo:'imgs/tiger.jpg',
-        fact:''
+        fact:'Multiple people have taken the White Tiger mantle; they get their powers from mystical amulets granting enhanced strength and agility.'
     },
     {
         name:'Ego',
