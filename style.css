@@ -4,6 +4,7 @@
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 }
+
 /* General Body Styling */
 body {
     background-color: #F5F5F5;
@@ -72,8 +73,7 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
-
-
+/* Team badge styles */
 .badge-position {
     padding: 0.4rem 0.8rem;
     border: 2px solid;
@@ -84,13 +84,11 @@ h1, h2, h3, h4, h5 {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
-
 .badge-pos-avengers {
     background-color: red;
     color: white;
     border-color: red;
 }
-
 
 .badge-pos-x-men {
     background-color: red;
@@ -98,16 +96,103 @@ h1, h2, h3, h4, h5 {
     border-color: red;
 }
 
-
 .badge-pos-fantastic-four {
     background-color: black;
     color: #2196F3; /* blue */
     border-color: black;
 }
 
-
 .badge-pos-defenders {
     background-color: green;
     color: yellow;
     border-color: green;
+}
+
+/* === Landing Page Styling === */
+
+body.landing-page {
+    background-color: #000;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('imgs/marvel.jpg'); /* Optional background */
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-box {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 3rem;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.landing-box h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 2.5rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.btn-marvel {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-marvel:hover {
+    background-color: darkred;
+}
+/* Marvel Red Themed Buttons */
+.btn-marvel {
+    background-color: #D32F2F;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.btn-marvel:hover {
+    background-color: #b71c1c;
+    color: white;
+}
+
+/* Outline button used on landing page (white border) */
+.btn-outline-light {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #D32F2F;
+}
+
+/* About Page Styling */
+.card p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.card h2 {
+    color: #D32F2F;
 }

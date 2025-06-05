@@ -226,7 +226,7 @@ const players = [
         power:'sword',
         team:'Guardians of the Galaxy',
         photo:'imgs/gamora.jpg',
-        fact:'Known as the "deadliest woman in the galaxy," she was raised by Thanos.'
+        fact:'Known as the deadliest woman in the galaxy, she was raised by Thanos.'
 
 
     },
@@ -568,7 +568,7 @@ const players = [
         power:'superhuman strength, speed, endurance, agility, and the ability to heal wounds',
         team:'Defenders',
         photo:'imgs/tiger.jpg',
-        fact:'Multiple people have taken the White Tiger mantle; they get their powers from mystical amulets granting enhanced strength and agility.'
+        fact:'Multiple people have taken the White Tiger mantle they get their powers from mystical amulets granting enhanced strength and agility.'
     },
     {
         name:'Ego',
@@ -576,7 +576,7 @@ const players = [
         power:'nigh-immortality, molecular manipulation, and the ability to create planets',
         team:'Guardians of the Galaxy',
         photo:'imgs/ego.jpg',
-        fact:''
+        fact:'A sentient planet who’s literally a cosmic diva and quite the narcissist hence the name.'
     },
     {
         name:'Goose',
@@ -584,7 +584,7 @@ const players = [
         power:'shoot large tentacles from its mouth',
         team:'Guardians of the Galaxy',
         photo:'imgs/goose.jpg',
-        fact:''
+        fact:'Looks like a normal cat but is actually a Flerken, an alien creature with tentacles and pocket dimensions inside its body. Definitely not your average housecat.'
     },
     {
         name:'Jarhead',
@@ -592,15 +592,15 @@ const players = [
         power:'Jar with a brain in it',
         team:'Guardians of the Galaxy',
         photo:'imgs/jarhead.jpg',
-        fact:''
+        fact:'Not super well-known; Jarhead is often a nickname for Marines, but in comics, a lesser-known hero with limited info available.'
     },
     {
-        name:'1Sam Wilson',
+        name:'Sam Wilson',
         alias:'Falcon',
         power:'Winged Jetpack',
         team:'Avengers',
         photo:'imgs/falcon.jpg',
-        fact:''
+        fact:'Sam Wilson is the first African-American superhero in mainstream Marvel comics to receive his own series.'
     },
     {
         name:'General Thaddeus E. Ross',
@@ -608,7 +608,7 @@ const players = [
         power:'Stronger, Redder, Angrier',
         team:'Avengers',
         photo:'imgs/red.jpg',
-        fact:''
+        fact:'Hulk’s longtime nemesis who turned himself into a red version of the Hulk, known for being even angrier and sometimes more reckless.'
     },
     {
         name:'Erik Stephan Josten',
@@ -616,7 +616,7 @@ const players = [
         power:'size changing',
         team:'Avengers',
         photo:'imgs/atlas.jpg',
-        fact:''
+        fact:'Member of the superhero team “The Champions,” known for his immense strength and size, named after the Greek titan who held the world on his shoulders.'
     },
     {
         name:'Sean Cassidy',
@@ -624,7 +624,7 @@ const players = [
         power:'sonic screams',
         team:'X-men',
         photo:'imgs/banshee.jpg',
-        fact:''
+        fact:'Sean Cassidy can emit powerful sonic screams that let him fly or shatter objects — essentially a supersonic screamer.'
     },
     {
         name:'Barnell Bohusk',
@@ -632,7 +632,7 @@ const players = [
         power:'human vulture',
         team:'X-men',
         photo:'imgs/beak.jpg',
-        fact:''
+        fact:'a sweet, awkward dinosaur-bird hybrid whos actually a kind hearted guy.'
     },
     {
         name:'Doop',
@@ -640,7 +640,7 @@ const players = [
         power:'Flight Accelerated healing factor Superhuman strength ',
         team:'X-men',
         photo:'imgs/doop.jpg',
-        fact:''
+        fact:'A green floating creature who speaks a strange language only understood by a few. Very mysterious.'
     },
     {
         name:'Jamie Madrox',
@@ -648,7 +648,7 @@ const players = [
         power:'Duplication',
         team:'X-men',
         photo:'imgs/madrox.jpg',
-        fact:''
+        fact:'basically a one-man army with a penchant for getting into trouble.'
     },
     {
         name:'Xabi',
@@ -656,7 +656,7 @@ const players = [
         power:'if you are not in his vision you dont know who he is',
         team:'X-men',
         photo:'imgs/forget.jpg',
-        fact:''
+        fact:'wait who are we talking about again?'
     },
     {
         name:'Bucky Barnes',
@@ -664,7 +664,7 @@ const players = [
         power:'Metal Arm',
         team:'Avengers',
         photo:'imgs/winter.jpg',
-        fact:''
+        fact:' Captain America’s sidekick who was brainwashed into becoming a deadly assassin with a cybernetic arm.'
     },
     {
         name:'Ka-Zar',
@@ -672,15 +672,15 @@ const players = [
         power:'exceptional physical prowess and survival skills',
         team:'Avengers',
         photo:'imgs/kazar.jpg',
-        fact:''
+        fact:'A jungle lord type, living in the Savage Land a hidden prehistoric area full of dinosaurs and adventure.'
     },
     {
         name:'Doreen Allene Green',
         alias:'Squirrel Girl',
-        power:'Undefeatable,tail',
+        power:'Undefeatable, tail, talk to squrrels',
         team:'Avengers',
         photo:'imgs/sq.jpg',
-        fact:''
+        fact:'she has actually never lost a fight and has beat high power vilains like Thanos'
     },
     {
         name:'Dennis Dunphy',
@@ -688,7 +688,7 @@ const players = [
         power:'Wreslter?',
         team:'Avengers',
         photo:'imgs/dman.jpg',
-        fact:''
+        fact:'D-Man is a former wrestler turned superhero who, despite lacking superpowers, fights crime with grit and determination.'
     },
     {
         name:'Kyle Richmond',
@@ -696,15 +696,15 @@ const players = [
         power:'night vision, sharp claws, jet-powered flight, lasers, and defensive capabilities',
         team:'Defenders',
         photo:'imgs/night.jpg',
-        fact:''
+        fact:'There are several Nighthawks, but most are vigilante types who work mostly at night, often with a bird motif.'
     },
     {
-        name:'Richard Rider)',
+        name:'Richard Rider',
         alias:'Nova',
         power:'Superhuman strength, speed, stamina, accuracy, agility, reflexes, and durability',
         team:'Defenders',
         photo:'imgs/nova.jpg',
-        fact:''
+        fact:'Richard Rider is part of the Nova Corps — intergalactic police with cosmic powers and a shiny helmet that lets him fly and shoot energy.'
     },
     {
         name:'Eugene "Flash" Thompso',
@@ -712,7 +712,7 @@ const players = [
         power:'Venom Symbiote',
         team:'Guardians of the Galaxy',
         photo:'imgs/venom.jpg',
-        fact:''
+        fact:'Flash Thompson bonded with the Venom symbiote and became a government agent who uses the symbiote’s powers for good.'
     },
     {
         name:'Daniel Lone Eagle',
@@ -720,7 +720,7 @@ const players = [
         power:'can build anything he thinks of',
         team:'X-men',
         photo:'imgs/forge.jpg',
-        fact:''
+        fact:'A mutant inventor who can create any technology he imagines, often acting as the X-Men’s go-to tech genius.'
     },
     {
         name:'Humanoid Experimental Robot B-Type Integrated Electronics',
@@ -728,7 +728,7 @@ const players = [
         power:'robot',
         team:'Fantastic Four',
         photo:'imgs/herbie.jpg',
-        fact:''
+        fact:'A friendly robot companion often seen with the Fantastic Four — originally created for the 1978 animated series.'
     },
     {
         name:'Sarah Rushman',
@@ -736,7 +736,7 @@ const players = [
         power:'grow and retract bones from her ody',
         team:'X-men',
         photo:'imgs/marrow.jpg',
-        fact:''
+        fact:'Wolverine but with even more spikes.'
     },
     {
         name:'Natasha Romanoff',
@@ -744,7 +744,7 @@ const players = [
         power:'Spy, combat abilities',
         team:'Avengers',
         photo:'imgs/blackwidow.jpg',
-        fact:''
+        fact:'Fluent in 57 languages.She’s survived alien invasions, robot uprisings, and Avengers team meetings — without superpowers. '
     },
     {
         name:'Christopher Powell',
@@ -752,7 +752,7 @@ const players = [
         power:'Superhuman strength, Retractable glider wings, Force blasts and force fields,',
         team:'Avengers',
         photo:'imgs/darkhawk.jpg',
-        fact:''
+        fact:'A teenager who finds an alien amulet that transforms him into a powerful armored warrior with enhanced strength and flight.'
     },
     {
         name:'Armondo Munoz',
@@ -760,7 +760,7 @@ const players = [
         power:'body thats able to adapt to anything',
         team:'X-men',
         photo:'imgs/darwin.jpg',
-        fact:''
+        fact:'Darwin is so good at surviving, he once “adapted” to a godlike being by just ceasing to exist in its vicinity. His powers basically said, “Nope, we’re out.”'
     },
     {
         name:'Devl Dinosaur',
@@ -768,7 +768,7 @@ const players = [
         power:'T-Rex Demon',
         team:'Avengers',
         photo:'imgs/devil dino.jpg',
-        fact:''
+        fact:'A giant red dinosaur from a prehistoric era who partners with a young caveman hero named Moon-Boy.'
     },
     {
         name:'Fabio Medina',
@@ -776,7 +776,7 @@ const players = [
         power:'ability to produce limetless golden eggs',
         team:'X-men',
         photo:'imgs/egg.jpg',
-        fact:''
+        fact:'He went from “Haha, you shoot eggs!” to “You’re one of the Five who can resurrect all mutantkind.”'
     }
  
 
