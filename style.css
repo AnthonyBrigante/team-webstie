@@ -150,24 +150,21 @@ body.landing-page {
     transition: background-color 0.3s ease;
 }
 
-.btn-marvel:hover {
-    background-color: darkred;
-}
 /* Marvel Red Themed Buttons */
 .btn-marvel {
-    background-color: #D32F2F;
+    background-color: red;
     color: white;
     font-weight: bold;
     border: none;
-    padding: 0.6rem 1.2rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
-    text-transform: uppercase;
-    border-radius: 6px;
 }
 
 .btn-marvel:hover {
-    background-color: #b71c1c;
-    color: white;
+    background-color: white;
+    color: #D32F2F;
 }
 
 /* Outline button used on landing page (white border) */
